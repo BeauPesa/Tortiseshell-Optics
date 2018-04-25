@@ -1,0 +1,12 @@
+
+
+h1 {
+  font-family: "Source Serif Pro", serif;
+  font-kerning: 10px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: blue;
+}
