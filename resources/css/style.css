@@ -1,12 +1,90 @@
+/* UNIVERSAL STYLES */
 
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: #EEE;
+}
 
 h1 {
   font-family: "Source Serif Pro", serif;
-  font-kerning: 10px;
+  font-size: 5em;
   text-align: center;
+  color: cadetblue;
+}
+
+h2 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 3em;
+  text-align: center;
+  color: cadetblue;
+}
+
+span {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1rem;
   color: white;
 }
 
-body {
-  background-color: blue;
+.container {
+  margin-top: -1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* HEADER */
+
+.menu {
+  flex: start;
+  flex-direction: row;
+  justify-content: flex-end;
+  display: inline-block;
+  color: white;
+}
+
+.heroimage {
+  width: 100%;
+  height: 30rem;
+  background-image: url('/Stuff/development projects/codecademyprojects/12.TortiseshellOptics/resources/images/glasses-bg.png');
+  background-size: cover;
+  z-index: -1;
+}
+
+.headcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /*border: 1px black solid;*/
+  height: 3.5em;
+  margin: 1.5em auto;
+  width: 80%;
+  background-color: cadetblue;
+}
+
+.navcontainer {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#glasses {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2em;
+}
+
+a:hover {
+
+  color: dimgrey;
 }
