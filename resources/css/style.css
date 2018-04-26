@@ -29,11 +29,19 @@ span {
 }
 
 .container {
-  margin-top: -1em;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+.nav {
+  margin-top: -1em;
+}
+
+.content {
+  margin: 0 auto;
+  padding-top: 3rem;
 }
 
 
@@ -130,5 +138,32 @@ a:hover {
 }
 
 #title:hover {
-  color: white; 
+  color: white;
+}
+
+/* BODY */
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+  height: 2em;
+}
+
+.icon {
+  height: 6.5rem;
+  width:5rem;
+}
+
+#ruler {
+  width:7rem;
+  height: 3.2rem;
+  margin-left: 6rem;
+}
+
+#truck {
+  margin-left: 6rem;
+  height: 4rem;
+  width: 7.5rem;
 }
