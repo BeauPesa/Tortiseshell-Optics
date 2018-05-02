@@ -29,6 +29,7 @@ span {
 }
 
 .container {
+  border: 1px black solid;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -42,6 +43,7 @@ span {
 .content {
   margin: 0 auto;
   padding-top: 3rem;
+  width: 50%;
 }
 
 
@@ -143,27 +145,64 @@ a:hover {
 
 /* BODY */
 
+
+
+.column {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+}
+
 .icons {
+  border: 1px black solid;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
-  height: 2em;
+  height: 20em;
+  width: 55%;
 }
 
-.icon {
+#paper {
   height: 6.5rem;
-  width:5rem;
+  width: 5rem;
 }
 
 #ruler {
   width:7rem;
   height: 3.2rem;
-  margin-left: 6rem;
+  margin-left: 0rem;
+  padding: 2rem;
 }
 
 #truck {
-  margin-left: 6rem;
-  height: 4rem;
+  margin-left: 0rem;
+  height: rem;
   width: 7.5rem;
+  padding: 2rem;
+}
+
+.icon__notes {
+  color: black;
+  width: 50%;
+  position: relative;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.icon__note {
+  display: flex;
+  align-items: center; 
+  border: 1px black solid;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+#icon__note {
+  color: black;
 }
