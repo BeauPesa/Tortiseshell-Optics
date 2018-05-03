@@ -145,14 +145,13 @@ a:hover {
 
 /* BODY */
 
-
-
 .column {
   border: 1px black solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 12rem;
 }
 
@@ -165,7 +164,8 @@ a:hover {
   justify-content: space-between;
   margin: 0 auto;
   height: 20em;
-  width: 55%;
+  width: 65%;
+  overflow: hidden;
 }
 
 #paper {
@@ -195,14 +195,11 @@ a:hover {
   margin: 0 auto;
 }
 
-.icon__note {
+#icon__note {
   display: flex;
-  align-items: center; 
+  align-items: center;
   border: 1px black solid;
   padding-top: 2rem;
   text-align: center;
-}
-
-#icon__note {
   color: black;
 }
