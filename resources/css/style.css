@@ -261,3 +261,44 @@ footer {
   height: 9.5rem;
   width: 960px;
 }
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media screen and (max-width: 768px){
+
+body { background-color: darkgrey;
+}
+
+.headcontainer {
+  width: 100%;
+  margin-top: .3em;
+}
+
+.titlebox {
+  width: 60%;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+}
+
+/* TABLET */
+
+@media screen and (max-width: 480px) {
+
+body {background-color: blue;
+}
+
+.navcontainer {display: none;
+}
+
+.titlebox {
+  width: 100%;
+  height: 4em;
+  margin-top: 14rem;
+  padding: 0;
+}
+}
