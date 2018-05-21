@@ -24,7 +24,6 @@ h2 {
 span {
   font-family: "Helvetica", sans-serif;
   font-size: 1rem;
-  color: white;
   margin-right: 2em;
 }
 
@@ -260,6 +259,10 @@ span, #header {
   width: 200px;
 }
 
+span, #copyright{
+  color: black;
+  }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -268,7 +271,7 @@ footer {
   margin-top;
   background-color: azure;
   height: 9.5rem;
-  width: 960px;
+  width: 100%;
 }
 
 
@@ -306,6 +309,10 @@ footer {
   justify-content: flex-start;
   align-items: center;
 }
+
+span, #copyright{
+  color: black;
+  }
 }
 
 
@@ -314,7 +321,7 @@ footer {
 @media screen and (max-width: 480px) {
 
 body {
-  background-color: blue;
+  background-color: whitesmoke;
 }
 
 .title{
@@ -345,7 +352,7 @@ body {
 }
 
 .bottom {
-  width: 100%; 
+  width: 100%;
   margin-top: 100px;
   flex-direction: column;
 }
@@ -376,4 +383,9 @@ footer {
   align-items: center;
   margin-bottom: 50px;
 }
+
+#copyright, span{
+  color: black;
+  display: none;
+  }
 }
