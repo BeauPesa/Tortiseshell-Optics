@@ -216,7 +216,7 @@ a:hover {
   justify-content: space-between;
   margin: 0 auto;
   positon: center;
-  height: 10em;
+
   width: 65%;
 
 }
@@ -390,7 +390,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+
 }
 
 #philosophy {
@@ -399,6 +399,7 @@ footer {
 
 #copy {
   width: 100%;
+  padding: 10px;
 }
 
 #copyright{
