@@ -246,7 +246,7 @@ a:hover {
 
 /* FOOTER */
 
-.foot {
+.bottomcontainer {
   margin-bottom: 14rem;
 }
 
@@ -321,7 +321,7 @@ span, #copyright{
 @media screen and (max-width: 480px) {
 
 body {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .title{
@@ -343,8 +343,11 @@ body {
 }
 
 #header {
-  display: none;
+  color: grey;
+  display: none; 
 }
+
+
 
 .icons {
   flex-direction: column;
@@ -361,9 +364,14 @@ body {
   width: 100%;
 }
 
+.bottomcontainer {
+  flex: start;
+  flex-direction: column;
+}
+
 .title__bottom {
   float: left;
-  width: 500px;
+  width: 100%;
 }
 
 #copy {
@@ -384,7 +392,7 @@ footer {
   margin-bottom: 50px;
 }
 
-#copyright, span{
+#copyright{
   color: black;
   display: none;
   }
