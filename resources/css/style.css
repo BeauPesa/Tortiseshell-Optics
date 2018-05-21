@@ -251,6 +251,15 @@ a:hover {
   margin-bottom: 14rem;
 }
 
+span,#copyright {
+  color: black;
+}
+
+span, #header {
+  color: white;
+  width: 200px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -336,6 +345,7 @@ body {
 }
 
 .bottom {
+  width: 100%; 
   margin-top: 100px;
   flex-direction: column;
 }
