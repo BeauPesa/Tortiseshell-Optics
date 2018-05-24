@@ -62,7 +62,7 @@ span {
   height: 1.5rem;
   padding-left: 2rem;
   padding-right: 1rem;
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 #contact {
@@ -277,6 +277,13 @@ span, #copyright {
   width: 300px;
 }
 
+#glassesblack {
+    height: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    margin-top: 2px;
+  }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -318,7 +325,7 @@ body { background-color: darkgrey;
 }
 
 #glasses {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 #contact {
