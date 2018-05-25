@@ -246,6 +246,13 @@ span, #header {
   margin: 0%;
 }
 
+#appointments {
+  width: 50%;
+  /*outline: 1px black solid;*/
+  margin: 0%;
+  margin-left: 200px;
+}
+
 #copy {
   margin: 3rem 0rem;
   width: 95%;
