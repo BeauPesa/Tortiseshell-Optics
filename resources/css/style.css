@@ -26,6 +26,7 @@ span {
   font-family: "Helvetica", sans-serif;
   font-size: 1rem;
   margin-right: 2em;
+
 }
 
 .container {
@@ -437,11 +438,12 @@ body {
   flex-direction: column;
 }
 
-#title{
+ #title{
   width: 100%;
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-align: center; 
 }
 
 .bottomcontainer {
