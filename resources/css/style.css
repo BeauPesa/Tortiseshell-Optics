@@ -225,6 +225,10 @@ span, #header {
   color: black;
 }
 
+.bottomcontainer {
+  margin: 0rem 2rem;
+}
+
 .bottom {
   padding-top: 0rem;
   /*border: 1px black solid;*/
@@ -236,7 +240,7 @@ span, #header {
   margin: 0 auto;
   positon: center;
 
-  width: 65%;
+  width: 85%;
 
 }
 
@@ -244,18 +248,24 @@ span, #header {
   width: 70%;
   /*outline: 1px black solid;*/
   margin: 0%;
+  margin-bottom: 5rem;
+}
+
+#spacer {
+  width: 1px;
+  margin-left: 200px;
 }
 
 #appointments {
   width: 70%;
   /*outline: 1px black solid;*/
   margin: 0%;
-  margin-left: 200px;
+  margin-left: 0px;
 }
 
 #copy {
   margin: 3rem 0rem;
-  min-width: 98%;
+  width: 85%;
 
 }
 
@@ -263,7 +273,7 @@ span, #header {
   font-family: helvetica;
   font-weight: bold;
   background-color: cadetblue;
-  width: 10rem;
+  width: 14rem;
   color: white;
   height: 1.75rem;
   text-align: center;
@@ -273,9 +283,7 @@ span, #header {
 
 /* FOOTER */
 
-.bottomcontainer {
-  margin-bottom: 14rem;
-}
+
 
 span, #copyright {
   color: black;
@@ -336,6 +344,10 @@ body { background-color: darkgrey;
   left: 33rem;
 }
 
+.bottomcontainer {
+  margin: 0rem 0rem;
+}
+
 #glasses {
   margin-top: 12px;
 }
@@ -352,6 +364,14 @@ body { background-color: darkgrey;
 
 .titlebox {
   width: 90%;
+}
+
+#spacer {
+  width: 0px;
+}
+
+#appointments {
+  margin-right: 40px;
 }
 
 footer {
@@ -436,7 +456,7 @@ body {
 }
 
 #copy {
-  margin: 100px 0px;
+  margin: 50px 0px;
   width: 100%;
   padding-right: 20px;
   padding-left: 15px;
@@ -448,7 +468,7 @@ body {
 }
 
 footer {
-  height: 300px;
+  height: 100px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -457,7 +477,16 @@ footer {
 
 }
 
+.bottomcontainer {
+  margin: 0rem 0rem;
+}
+
 #philosophy {
+  width: 100%;
+
+}
+
+#appointments {
   width: 100%;
 }
 
