@@ -91,11 +91,7 @@ a:hover {
   color: white;
 }
 
-.mobilemenu {
-  color: white;
-  margin-right: 2em;
-  display: none ;
-}
+
 
 span, #header {
   color: white;
@@ -121,6 +117,10 @@ span, #header {
   margin: 1.5em auto;
   width: 80%;
   background-color: cadetblue;
+}
+
+.mobilemenu {
+
 }
 
 .titlebox {
@@ -296,10 +296,6 @@ footer {
 }
 
 
-
-
-
-
 /* MEDIA QUERIES */
 
 
@@ -322,6 +318,15 @@ body { background-color: darkgrey;
 .navcontainer {
   margin-left: 140px;
   margin-top: 5px;
+  display: none;
+}
+
+.mobilemenu {
+  color: white;
+  margin-right: 2em;
+  margin-top: 10px;
+  position: relative;
+  left: 33rem;
 }
 
 #glasses {
@@ -364,10 +369,7 @@ body {
   height: 300px;
 }
 
-.mobilemenu {
-  color: white;
-  margin-right: 2em;
-}
+
 
 .navcontainer {
   display: none;
@@ -388,7 +390,13 @@ body {
   display: none;
 }
 
-
+.mobilemenu {
+  color: white;
+  margin-right: 2em;
+  margin-top: 10px;
+  position: relative;
+  left: 12rem;
+}
 
 .icons {
   flex-direction: column;
@@ -451,3 +459,5 @@ footer {
   display: none;
   }
 }
+
+@media screen and (min-width: 480px)
