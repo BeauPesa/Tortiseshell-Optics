@@ -241,13 +241,13 @@ span, #header {
 }
 
 #philosophy {
-  width: 50%;
+  width: 70%;
   /*outline: 1px black solid;*/
   margin: 0%;
 }
 
 #appointments {
-  width: 50%;
+  width: 70%;
   /*outline: 1px black solid;*/
   margin: 0%;
   margin-left: 200px;
@@ -255,7 +255,7 @@ span, #header {
 
 #copy {
   margin: 3rem 0rem;
-  width: 95%;
+  min-width: 98%;
 
 }
 
