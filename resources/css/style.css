@@ -321,7 +321,7 @@ footer {
 
 @media screen and (max-width: 768px){
 
-body { background-color: darkgrey;
+body { background-color: #eee;
 }
 
 #header {
@@ -329,6 +329,8 @@ body { background-color: darkgrey;
 }
 
 .headcontainer {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   margin-top: .3em;
 }
@@ -343,9 +345,9 @@ body { background-color: darkgrey;
 
 .mobilemenu {
   color: white;
-  margin-right: 0;
+  margin-right: 5%;
   margin-top: 10px;
-  margin-left: 60%;
+  margin-left: 50%;
   left: 33rem;
   display: block;
 
@@ -403,11 +405,14 @@ a {
 @media screen and (max-width: 480px) {
 
 body {
-  background-color: white;
+  background-color: #EEE;
   height: 300px;
 }
 
-
+.headcontainer {
+  display: flex;
+  justify-content: space-between;
+}
 
 .navcontainer {
   display: none;
@@ -429,10 +434,9 @@ body {
 }
 
 .mobilemenu {
-  display: flex;
-  justify-content: space-between;
+
   color: white;
-  margin-right: 100px;
+  margin-right: 10%;
   margin-top: 10px;
   display: block;
 
