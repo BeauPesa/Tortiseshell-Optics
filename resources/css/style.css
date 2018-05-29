@@ -163,6 +163,10 @@ span, #header {
 
 /* BODY */
 
+.iconcontainer {
+  /*outline: 1px black solid;*/
+}
+
 .icons {
   /*border: 1px black solid;*/
   display: flex;
@@ -442,10 +446,25 @@ body {
 
 }
 
+.iconcontainer {
+  position: relative ;
+  top: 40px;
+  margin-top: 105px;
+  /*outline: 1px black solid;*/
+}
+
 .icons {
   flex-direction: column;
   margin-top: 100px;
   height: 30em;
+}
+
+#ruler {
+  margin-top: 100px;
+}
+
+#truck {
+  margin-top: 210px;
 }
 
 .bottom {
